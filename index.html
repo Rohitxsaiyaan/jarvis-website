@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050b13">
+  <meta name="description" content="JARVIS Desktop — a personal Windows assistant. Explore features, releases, and updates.">
+  <title>JARVIS // Desktop Intelligence</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanline" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="JARVIS home">
+      <span class="brand-mark"><span></span><span></span><span></span></span>
+      <span>J.A.R.V.I.S.<small>DESKTOP INTELLIGENCE</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#features">CAPABILITIES</a>
+      <a href="#updates">UPDATES</a>
+      <a href="#about">ABOUT</a>
+      <a class="nav-cta" href="#download">GET JARVIS <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> PERSONAL DESKTOP SYSTEM <span class="eyebrow-line"></span> WINDOWS</div>
+        <h1>YOUR SYSTEM.<br><span>YOUR INTELLIGENCE.</span></h1>
+        <p class="hero-text">Meet JARVIS — a personal desktop assistant built to make everyday PC tasks feel effortless. A smarter interface for the machine you use every day.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#download">EXPLORE DOWNLOAD <span>↘</span></a>
+          <a class="button ghost" href="#features">VIEW CAPABILITIES</a>
+        </div>
+        <div class="hero-status">
+          <div><span class="status-label">PLATFORM</span><strong>WINDOWS DESKTOP</strong></div>
+          <div><span class="status-label">RELEASE CHANNEL</span><strong>STABLE <i class="tiny-dot"></i></strong></div>
+          <div><span class="status-label">UPDATE SYSTEM</span><strong id="updateStatus">PREPARING</strong></div>
+        </div>
+      </div>
+      <div class="core-wrap" aria-label="Decorative futuristic JARVIS core">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="core-grid"></div>
+        <div class="core">
+          <div class="core-inner"><div class="core-cross"></div><div class="core-label">J</div></div>
+        </div>
+        <div class="core-caption"><span class="live-dot"></span> SYSTEM CORE <span>ONLINE</span></div>
+        <div class="readout readout-a"><small>CORE TEMP</small><b>OPTIMAL</b></div>
+        <div class="readout readout-b"><small>NETWORK</small><b>READY</b></div>
+      </div>
+      <div class="hero-bottom-line"><span>JARVIS / DESKTOP INITIATIVE</span><span>DESIGNED FOR FOCUS <b>◆</b></span></div>
+    </section>
+
+    <section class="section features-section" id="features">
+      <div class="section-head">
+        <div><div class="eyebrow">01 / CAPABILITIES</div><h2>BUILT TO WORK<br><span>WITH YOU.</span></h2></div>
+        <p>One desktop companion. A growing set of useful tools. Designed to launch quickly and stay out of your way.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">⌘</div><div class="card-index">CAPABILITY / 01</div><h3>APP LAUNCHING</h3><p>Open supported desktop apps with simple commands instead of hunting through menus.</p><span class="card-arrow">↗</span></article>
+        <article class="feature-card"><div class="feature-icon">⌕</div><div class="card-index">CAPABILITY / 02</div><h3>WEB SEARCH</h3><p>Move from a command to a browser search quickly, with Chrome-first launching where available.</p><span class="card-arrow">↗</span></article>
+        <article class="feature-card"><div class="feature-icon">◉</div><div class="card-index">CAPABILITY / 03</div><h3>VOICE INTERFACE</h3><p>A voice-first direction for hands-free interaction, depending on your local device setup.</p><span class="card-arrow">↗</span></article>
+        <article class="feature-card"><div class="feature-icon">⟳</div><div class="card-index">CAPABILITY / 04</div><h3>UPDATE READY</h3><p>A dedicated release page for version notes and future verified automatic updates.</p><span class="card-arrow">↗</span></article>
+      </div>
+    </section>
+
+    <section class="update-section" id="updates">
+      <div class="update-orb"><span>↻</span></div>
+      <div class="update-copy">
+        <div class="eyebrow">02 / RELEASE INTELLIGENCE</div>
+        <h2>ALWAYS MOVING<br><span>FORWARD.</span></h2>
+        <p>This website is the starting point for JARVIS releases. Automatic updates will be enabled after the release manifest, package hosting, and signed/verified update flow are configured.</p>
+        <div class="release-panel">
+          <div><span class="status-label">LATEST PUBLISHED VERSION</span><strong id="version">v0.1.0 · WEBSITE PREVIEW</strong></div>
+          <div><span class="status-label">RELEASE STATUS</span><strong class="amber"><i class="tiny-dot"></i> UPDATE SYSTEM NOT CONNECTED</strong></div>
+          <div><span class="status-label">RELEASE NOTES</span><p id="releaseNotes">Website preview release. No installer is published here yet.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="download-section section" id="download">
+      <div class="download-panel">
+        <div class="download-copy">
+          <div class="eyebrow">03 / DEPLOYMENT</div>
+          <h2>READY WHEN<br><span>YOU ARE.</span></h2>
+          <p>JARVIS for Windows is being prepared for its official release channel. The download button will activate when a real installer/package URL is configured.</p>
+          <button class="button primary disabled-button" disabled title="No release package has been published yet">DOWNLOAD FOR WINDOWS <span>↓</span></button>
+          <small class="download-note">NO INSTALLER PUBLISHED YET — THIS IS A WEBSITE PREVIEW.</small>
+        </div>
+        <div class="terminal">
+          <div class="terminal-bar"><span></span><span></span><span></span><b>JARVIS / RELEASE TERMINAL</b></div>
+          <div class="terminal-body">
+            <p><span class="terminal-prompt">></span> initializing release channel...</p>
+            <p><span class="terminal-prompt">></span> website interface <em>online</em></p>
+            <p><span class="terminal-prompt">></span> package repository <em class="warning">awaiting configuration</em></p>
+            <p><span class="terminal-prompt">></span> secure updater <em class="warning">not connected</em></p>
+            <p class="terminal-cursor"><span class="terminal-prompt">></span> <span></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="eyebrow">04 / THE INITIATIVE</div>
+      <h2>MADE TO BE<br><span>YOURS.</span></h2>
+      <p class="about-text">JARVIS is an independent personal assistant project. This website is its home for announcements, release notes, and future downloads. It is not affiliated with Marvel or any other entertainment franchise.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#home"><span class="brand-mark"><span></span><span></span><span></span></span><span>J.A.R.V.I.S.<small>DESKTOP INTELLIGENCE</small></span></a>
+    <div>© <span id="year"></span> JARVIS PROJECT <span class="footer-sep">/</span> INDEPENDENT SOFTWARE</div>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
